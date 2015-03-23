@@ -345,6 +345,14 @@ public function koloroweAction()
     {
         return $this->render('default/Perfect.html.twig');
     }
+    /**
+       * 
+     * @Route("/Poziomki.html", name="Poziomki")
+     */
+    public function PoziomkiAction()
+    {
+        return $this->render('default/Poziomki.html.twig');
+    }
       
     /*
      * Q
